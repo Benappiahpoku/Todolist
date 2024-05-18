@@ -7,7 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
-  padding-top: 50px;
+  font-size: 1.5rem;
+
 }
 
 code {
@@ -44,16 +45,38 @@ h2 {
   color: #ce2952;
 }
 
-@media screen and (max-width: 780px) {
-  p {
-    text-align: center;
-  }
+
+.App {
+  display: flex;
+  flex-direction: column;
+
 }
+
+footer {
+  margin-top: auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+
+}
+
 
 /* Media Queries */
 
 @media screen and (max-width: 780px) {
   .container {
     padding: 0 20px;
+  }
+    p {
+    text-align: center;
   }
 }

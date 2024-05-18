@@ -1,0 +1,12 @@
+/* src/pages/Dashboard.css */
+.dashboard {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+h2 {
+  text-align: center;
+}

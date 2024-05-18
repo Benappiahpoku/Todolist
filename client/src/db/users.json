@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "username": "newuser",
+        "email": "newuser@example.com",
+        "password": "password123",
+        "createdAt": "2024-05-09T14:56:21.000Z",
+        "updatedAt": "2024-05-09T14:56:21.000Z"
+    },
+    {
+        "id": 2,
+        "username": "benji",
+        "email": "benji@example.com",
+        "password": "password345",
+        "createdAt": "2024-05-09T14:56:21.000Z",
+        "updatedAt": "2024-05-10T07:54:34.000Z"
+    },
+    {
+        "id": 3,
+        "username": "jerry",
+        "email": "jerry@example.com",
+        "password": "password456",
+        "createdAt": "2024-06-09T14:56:21.000Z",
+        "updatedAt": "2024-05-10T07:55:20.000Z"
+    }
+]
