@@ -18,7 +18,7 @@ function Navbar() {
       <header className="App-header">
         <nav className={`navbar ${isActive ? "active" : ""}`}>
           <Link to="/" className="logo">
-            Edward{" "}
+            Todo App{" "}
           </Link>
           <ul className={`navMenu ${isActive ? "active" : ""}`}>
             <li onClick={removeActive}>
